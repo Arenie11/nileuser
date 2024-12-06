@@ -12,7 +12,7 @@ class Profile(models.Model):
     fullname = models.CharField(max_length=255)
     phone = models.CharField(max_length=50)
     gender = models.CharField(max_length=10, choices=GENDER)
-    profile_pix= models.ImageField(upload_to='profile', blank=True, null=True)
+    profile_pix= models.ImageField(upload_to='profile', blank=True, null=True )
     def __str__(self):
         return self.fullname
 
