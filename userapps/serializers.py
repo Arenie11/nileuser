@@ -42,7 +42,4 @@ class RegistrationSerializer(serializers.ModelSerializer):
         )
         return profile
 
-
     
-   
-        
